@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .content-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .content-container p {
+    font-size: 18px;
+    color: #555;
+    text-align: justify;
+  }
+
+  .nav-link {
+    /* Base styles for all NavLinks */
+    color: #333; /* Default color */
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust padding as needed */
+    display: inline-block; /* Makes them behave like inline elements */
+  }
+  
+  .nav-link:hover {
+    /* Styles for when the link is hovered over */
+    color: #007bff; /* Change to your desired hover color */
+    background-color: #f0f0f0; /* Add a subtle background color on hover */
+  }
+  
+  .nav-link.active {
+    /* Styles for the active (selected) link */
+    color: #fff; /* Change to your desired active color */
+    background-color: #007bff; /* Change to your desired active background color */
+    font-weight: bold; /* Make the active link stand out */
+  }
